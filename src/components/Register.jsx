@@ -105,10 +105,10 @@ const Register = () => {
           "x-api-key": "reqres-free-v1",
         },
       })
-      .then((res) => {
-        console.log(res);
+      .then((response) => {
+        console.log(response);
         setFormData(initialValues);
-        setId(res.data.id);
+        setId(response.data.id);
       })
       .catch((err) => console.warn(err));
   };
