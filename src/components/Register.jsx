@@ -110,7 +110,7 @@ const Register = () => {
         setFormData(initialValues);
         setId(response.data.id);
       })
-      .catch((err) => console.warn(err));
+      .catch((error) => console.warn(error));
   };
 
   return (
