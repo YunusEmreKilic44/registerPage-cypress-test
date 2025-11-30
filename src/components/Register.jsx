@@ -26,7 +26,7 @@ export const errorMessages = {
   soyad: "En az 3 karakter giriniz",
   email: "Gecerli bir email giriniz",
   password:
-    "En az 8 karakter,en az 1 büyük harf, küçük harf, en az 1 sembol ve en az 1 rakam içermelidir giriniz",
+    "En az 8 karakter,en az 1 büyük harf ve küçük harf, en az 1 sembol ve en az 1 rakam içermelidir giriniz",
 };
 
 const Register = () => {
